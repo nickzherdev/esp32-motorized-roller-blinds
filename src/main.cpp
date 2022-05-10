@@ -361,9 +361,9 @@ void setup(void) {
     }
 #endif
 
-    // Serial.println("Formatting spiffs now...");
-    // SPIFFS.format();
-    // Serial.println("done format.");
+    Serial.println("Formatting spiffs now...");
+    SPIFFS.format();
+    Serial.println("done format.");
 
     //Reset the action
     for (StepperHelper &stepperHelper : stepperHelpers) {
